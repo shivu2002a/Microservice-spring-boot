@@ -3,6 +3,7 @@ package com.shivu.moviecatalogservice.model;
 public class CatalogItem {
 	
 	private String name;
+	private String tagline;
 	private String desc;
 	private int rating;
 	
@@ -10,15 +11,17 @@ public class CatalogItem {
 		
 	}
 	
-	public CatalogItem(String name, String desc, int rating) {
+	public CatalogItem(String name, String tagLine, String desc, int rating) {
 		this.name = name;
 		this.desc = desc;
 		this.rating = rating;
+		this.tagline = tagLine;
 	}
-	public String getname() {
+	
+	public String getName() {
 		return name;
 	}
-	public void setname(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	public String getDesc() {
@@ -33,4 +36,13 @@ public class CatalogItem {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
+
+	public String getTagLine() {
+		return tagline;
+	}
+
+	public void setTagLine(String tagLine) {
+		this.tagline = tagLine;
+	}
+	
 }
