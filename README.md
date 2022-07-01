@@ -1,4 +1,4 @@
-# Microservice-spring-boot 
+# Movie catalog REST application 
 Java spring boot application using Microservice based architecture <br />
 Service Discovery by Netflix Eureka Server <br />
 Services: <br />
