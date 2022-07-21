@@ -10,6 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
 @EnableEurekaClient
+//@EnableAutoConfiguration
 public class MovieCatalogServiceApplication {
 	
 	@Bean
